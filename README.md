@@ -43,9 +43,9 @@ mpg = 10
 The preferred starting city for the sample above is city 4
 
 ## To run :
+./run.sh
 > If permissions denied:
-
 > > "zsh: permission denied: ./run.sh"
 
 > Run
-> > "chmod u+x run.sh"
+> > "chmod +x run.sh"
