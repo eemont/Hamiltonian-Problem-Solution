@@ -30,22 +30,52 @@ positive integer value for the number of miles that your car can travel per gall
 
 Write a function that returns the index of the preferred starting city.
 
-## Sample :
+## How to Run code:
 
-Sample Input:
+Run <code>./run.sh</code> command 
 
-city_distances = [5, 25, 15, 10, 15]
+> If permissions denied: 
+>> error code : "zsh: permission denied: ./run.sh"
 
-fuel = [1, 2, 1, 0, 3]
+>Run
+>> chmod +x run.sh
 
-mpg = 10
+If that also doesn't work, run code in online compiler.
 
-The preferred starting city for the sample above is city 4
+## Testing Program Input/Output:
 
-## To run :
-./run.sh
-> If permissions denied:
-> > "zsh: permission denied: ./run.sh"
+### Sample 1:
 
-> Run
-> > "chmod +x run.sh"
+<code>Sample Input:</code>
+
+<code>city_distances = [5, 25, 15, 10, 15]</code>
+
+<code>fuel = [1, 2, 1, 0, 3]</code>
+
+<code>mpg = 10</code>
+
+<code>The preferred starting city for the sample above is city 4</code>
+
+### Sample 2:
+
+<code>Sample Input:</code>
+
+<code>city_distances = [5, 15, 15, 20, 15]</code>
+
+<code>fuel = [1, 1, 0, 2, 3]</code>
+
+<code>mpg = 15</code>
+
+<code>The preferred starting city for the sample above is city 3</code>
+
+### Sample 3:
+
+<code>Sample Input:</code>
+
+<code>city_distances = {15, 5, 25, 10, 25}</code>
+
+<code>fuel = {3, 0, 1, 1, 2}</code>
+
+<code>mpg = 10</code>
+
+<code>No valid starting city found</code>
